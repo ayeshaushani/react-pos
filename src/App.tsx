@@ -7,6 +7,7 @@ import HomePage from "./pages/HomePage.tsx";
 import Login from "./pages/login.tsx";
 import Dashboard from "./pages/DashBoard.tsx";
 import Customer from "./pages/Customer.tsx";
+import Stock from "./pages/stock.tsx";
 
 
 
@@ -27,6 +28,7 @@ const App = () => {
                             <Route path="/login" element={<Login />} />
                             <Route path="/dashboard" element={<Dashboard />} />
                             <Route path="/customer" element={<Customer />} />
+                            <Route path="/stock" element={<Stock />} />
 
 
                         </Routes>
